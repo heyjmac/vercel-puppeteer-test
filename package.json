@@ -12,16 +12,18 @@
     "dev": "nodemon --watch index.js --watch tools.js --ext js,mjs --exec 'node index.js'"
   },
   "dependencies": {
+    "@sparticuz/chromium": "^138.0.2",
+    "chrome-aws-lambda": "10.1.0",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "node-fetch": "^3.3.2",
-    "puppeteer-core": "10.1.0",
-    "chrome-aws-lambda": "10.1.0"
+    "puppeteer-core": "^10.1.0"
   },
   "devDependencies": {
     "concurrently": "^9.2.0",
     "connect-livereload": "^0.6.1",
     "livereload": "^0.10.3",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "puppeteer": "^24.22.0"
   }
 }
